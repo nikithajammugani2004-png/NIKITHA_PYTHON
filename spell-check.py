@@ -1,7 +1,13 @@
+# Install via: pip install pyperclip
+# python -m pip install pyperclip
+# python -m pip install pyspellchecker
+
+
 import tkinter as tk
 from tkinter import scrolledtext, messagebox
 from spellchecker import SpellChecker
-import pyperclip  # Install via: pip install pyperclip
+import pyperclip  
+
 
 class VisualSpellChecker:
     def __init__(self, root):
